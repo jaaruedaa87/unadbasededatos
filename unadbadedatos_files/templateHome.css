@@ -1,0 +1,446 @@
+@-webkit-keyframes bannersControlShow {
+    from {
+    	bottom: 300px;
+    	filter:alpha(opacity=0);
+		opacity:0;
+	}
+    to {
+    	bottom: -5%;
+    	filter:alpha(opacity=100);
+		opacity:1;
+	}
+}
+/* Standard syntax */
+@keyframes bannersControlShow {
+    from {
+    	bottom: 300px;
+    	filter:alpha(opacity=0);
+		opacity:0;
+	}
+    to {
+    	bottom: -5%;
+    	filter:alpha(opacity=100);
+		opacity:1;
+}
+}
+/* Standard syntax */
+@-webkit-keyframes bannersControlHide {
+    from {
+    	bottom: 0;
+    	filter:alpha(opacity=90);
+		opacity:0.9;
+	}
+    to {
+    	bottom: 300px;
+    	filter:alpha(opacity=0);
+		opacity:0;
+}
+}
+/* Standard syntax */
+@keyframes bannersControlHide {
+    from {
+    	bottom: 0;
+    	filter:alpha(opacity=90);
+		opacity:0.9;
+	}
+    to {
+    	bottom: 300px;
+    	filter:alpha(opacity=0);
+		opacity:0;
+}
+}
+a.btnCampusVirtual {
+	-webkit-box-shadow: inset 0 -.2em rgba(0,0,0,.3);
+    box-shadow: inset 0 -.2em rgba(0,0,0,.3);
+  	display: block;
+  	margin-top: 30px;
+  	background: #026698;
+  	padding: 15px;
+  	color: #FFF;
+  	text-decoration: none;
+	float: right;
+  	transition: .3s;
+  	border-radius: 5px;
+}
+a.btnCampusVirtual:hover {
+	background: #004669;
+	border-radius: 20px;
+}
+a.btn_matriculasHome {
+	background: #F4AF00;
+  	display: none;
+  	padding: 10px 10px;
+  	color: #000;
+  	font-size: 1.3em;
+  	margin: 10px 2%;
+  	text-align: center;
+  	text-decoration: none;
+  	transition: .3s;
+  	border-radius: .2em;
+  	font-weight: bold;
+}
+a.btn_matriculasHome:hover {
+	background: #004669;
+  	color: #FFF;
+}
+
+div.conozcaLaUNAD{
+ margin: 0 0 20px 0;
+ padding: 20px 0;
+	position: relative;
+	overflow: hidden;
+}
+div.conozcaLaUNAD div.contenedorConozcaUNAD{
+	float: right;
+	overflow: hidden;
+	width: 64%;
+}
+div.conozcaLaUNAD div.contenedorConozcaUNAD a{
+	display: block;
+	float: left;
+	font-size: 0;
+	margin-right: 1.15%;
+	margin-bottom: 8px;
+	position: relative;
+	width: 31.8%;
+}
+div.conozcaLaUNAD div.contenedorConozcaUNAD a h4{
+	background: transparent url(../images/h4conocelaUNAD.png) top left no-repeat;
+	color: #FFF;
+	display: block;
+	font-size: 1rem;
+	height: 25px;
+	margin: 0;
+	right: 0;
+	bottom: 0;
+	padding: 0;
+	padding-left: 0;
+	padding-right: 10px;
+	padding-top: 5px;
+	position: absolute;
+	text-align: right;
+	width: 170px;
+	z-index: 1;
+}
+div.conozcaLaUNAD div.contenedorConozcaUNAD a img{
+	width: 100%;
+}
+div.conozcaLaUNAD div.h2{
+	color: #666;
+	margin: 0;
+	margin-bottom: 10px;
+	padding-top: 5px;
+}
+div.conozcaLaUNAD div.h2 h2{
+	background: #FFF;
+	display: inline-block;
+	color: #666;
+	font-size: 28px;
+	margin: 0;
+	padding: 0.1em 1em;
+}
+
+div.conozcaLaUNAD img.videoUnad{
+	float: left;
+	height:73%;
+	padding: 1%;
+	padding-top: 0;
+	position: absolute;
+	width:370px;
+}
+
+main{
+  padding-top: 13px;
+  width: auto;
+  padding-left: 0;
+  padding-right: 0;
+  border: 0;
+}
+
+main h1{
+	display: none;
+}
+nav ul li.principal ul{
+	padding: .2em 0;
+	text-align: center;
+}
+nav ul li.principal ul li a{
+	padding: .4em 3em;
+}
+
+div.publicaciones{
+  background: #333;
+  text-align: center;
+  padding: 20px 0;
+}
+
+div.publicaciones h2{
+  font-size: 30px;
+  color: #fff;
+  padding: 20px 0 0 0;
+}
+
+div.publicaciones a{
+  color: #fff;
+  display: inline-block;
+  text-decoration: none;
+  margin: 10px 0;
+  padding: 10px 0;
+  width: 300px;
+  transition: .4s;
+}
+
+div.publicaciones a:hover{
+  background: #555;
+  text-decoration: underline;
+}
+
+div.publicaciones a h3{
+margin: 0px;
+}
+
+div.publicaciones a.accesoSelloEditorial{
+  font-size: 20px;
+  display: inline-block;
+  background: transparent;
+border: 1px solid #FFF;
+border-radius: 10px;
+margin: 20px 0 20px 0;
+padding: 10px 0;
+}
+div.publicaciones a.accesoSelloEditorial:hover{
+  text-decoration: underline;
+}
+
+/* Responsive  ------------------*/
+
+
+@media screen and (max-width:1056px){
+div.bannerPrincipal div.imagenPrincipal{
+	margin-bottom: 8%;
+	width:70%;
+}
+div.bannerPrincipal div.imagenPrincipal div.control{
+	-webkit-animation-name: none; /* Chrome, Safari, Opera */
+	animation-name: none;
+	bottom: -23%;
+}
+div.bannerPrincipal div.imagenPrincipal div.hide{
+	-webkit-animation-name: none; /* Chrome, Safari, Opera */
+    animation-name: none;
+	filter:alpha(opacity=100);
+	opacity:1;
+}
+div.bannerPrincipal div.imagenPrincipal div.control img{
+	width: 19%;
+}
+div.bannerPrincipal div.textoPrincipal div.controlIndicadores{
+		bottom: auto;
+}
+div.bannerPrincipal{
+	height: auto;
+	overflow: hidden;
+	width:100%;
+}
+div.bannerPrincipal div.textoPrincipal{
+	width: 30%;
+}
+}
+@media screen and (max-width:1140px){
+div.homeRedes{
+	display: none;
+}
+}
+@media screen and (max-width:1050px){
+
+div.noticiasUNAD div.mod-sppoll{
+	margin: 0 1%;
+	width: 20%;
+}
+div.noticiasUNAD div.feed{
+	display: none;
+}
+}
+@media screen and (max-width:1000px){
+div.estudieUNAD ul li a{
+	height: 80px;
+}
+
+nav ul li.principal ul li a{
+	padding: .4em 2em;
+}
+}
+@media screen and (max-width:940px){
+div.bannerPrincipal div.imagenPrincipal div.control img{
+	width: 18%;
+}
+}
+@media screen and (max-width:910px){
+div.bienestarUNAD a.contenedor{
+	width: 20%;
+}
+div.bienestarUNAD div.multimedia{
+	width: 54%;
+}
+}
+@media screen and (max-width:850px){
+a.btnCampusVirtual {
+	margin: 10px 2%;
+	margin-bottom: 0;
+	float: none;
+}
+a.btn_matriculasHome{
+	display: block;
+}
+div.bannerPrincipal div.textoPrincipal h2{
+	margin: 0;
+	padding:0;
+	padding-top: .2em;
+	text-align: center;
+}
+div.bannerPrincipal div.textoPrincipal div.controlIndicadores{
+		display: none;
+}
+}
+@media screen and (max-width:800px){
+div.bienestarUNAD a.contenedor{
+	margin: .5%;
+	width: 18%;
+}
+div.bienestarUNAD div.multimedia{
+	width: 60%;
+}
+}
+@media screen and (max-width:762px){
+div.bannerPrincipal div.imagenPrincipal{
+	float: none;
+	margin-bottom: 11%;
+	width:100%;
+}
+div.bannerPrincipal div.textoPrincipal{
+	float: none;
+	position: static;
+	width: 100%;
+}
+}
+@media screen and (max-width:730px){
+div.estudieUNAD ul li{
+		margin-bottom: 5px;
+		width: 49%;
+}
+div.estudieUNAD ul li.carreras{
+	margin-left: 1%;
+}
+}
+@media screen and (max-width:720px){
+div.bienestarUNAD a.contenedor{
+	margin-bottom: 10px;
+	min-height: 106px;
+	float: none;
+	width: 100%;
+}
+div.bienestarUNAD a.contenedor img{
+	float: left;
+	margin-right: 10px;
+	width: 210px;
+}
+div.bienestarUNAD div.multimedia{
+	background: transparent;
+	float: none;
+	width: 100%;
+}
+div.bienestarUNAD div.multimedia a.canal{
+	background: #bfbfbf;
+	display: block;
+	width: 100%;
+}
+div.bienestarUNAD div.multimedia a.canal h4{
+	background: transparent;
+	color: #333;
+	padding: 0;
+	position: none;
+	margin:0;
+	margin-left: 220px;
+	margin-top: 40px;
+	text-align: left;
+	width: auto;
+	z-index: 0;
+}
+div.bienestarUNAD div.multimedia a.canalUNAD{
+	float: none;
+}
+div.bienestarUNAD div.multimedia a.CAVI{
+	margin-bottom: 10px;
+}
+div.bienestarUNAD div.multimedia a.moviles{
+	float: none;
+	margin-bottom: 10px;
+}
+div.bienestarUNAD div.multimedia a.radioUNAD{
+
+}
+div.bienestarUNAD div.multimedia h3{
+	display: none;
+}
+div.conozcaLaUNAD div.contenedorConozcaUNAD{
+	margin-left: 1%;
+    width: 98%;
+}
+div.conozcaLaUNAD img.videoUnad{
+	float: none;
+	position: static;
+	height: 200px;
+	width: 98%;																																																																																							%;
+}
+}
+@media screen and (max-width:580px){
+div.noticiasUNAD div.destacados{
+	display: inline-block;
+	width: 100%;
+}
+div.noticiasUNAD div.mod-sppoll{
+	position: static;
+	width: 100%;
+	float: none;
+}
+}
+@media screen and (max-width:500px){
+div.bienestarUNAD a.contenedor{
+	min-height: 76px;
+}
+div.bienestarUNAD a.contenedor h3{
+	padding-top: 30px;
+}
+div.bienestarUNAD a.contenedor img{
+	width: 150px;
+}
+div.bienestarUNAD a.contenedor p{
+	display: none;
+}
+div.bienestarUNAD div.multimedia a.canal h4{
+	margin-left: 160px;
+	margin-top: 30px;
+}
+div.bienestarUNAD div.multimedia a.canal img{
+	width: 150px;
+}
+div.conozcaLaUNAD div.contenedorConozcaUNAD{
+	float: none;
+    width: 98%;
+}
+div.conozcaLaUNAD div.contenedorConozcaUNAD a{
+	margin-left: 2%;
+	width: 46%;
+}
+}
+@media screen and (max-width:480px){
+	div.estudieUNAD ul li{
+		width: 98%;
+}
+}
+@media screen and (max-width:350px){
+	div.conozcaLaUNAD div.contenedorConozcaUNAD a{
+	margin-left: 3%;
+	width: 94%;
+}
+}
